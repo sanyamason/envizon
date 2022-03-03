@@ -57,7 +57,7 @@ gem 'bootstrap', git:"https://github.com/twbs/bootstrap-rubygem"
 gem 'diffy'
 
 # screenshots
-gem 'image_processing'
+gem 'image_processing', '>= 1.12.2'
 gem 'mini_magick'
 gem 'selenium-webdriver'
 
