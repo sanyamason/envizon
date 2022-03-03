@@ -124,7 +124,7 @@ GEM
     execjs (2.8.1)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
-    ffi (1.15.1)
+    ffi (1.15.5)
     font_awesome5_rails (1.4.0)
       railties (>= 4.2)
     git (1.8.1)
@@ -143,7 +143,7 @@ GEM
     htmlentities (4.3.4)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    image_processing (1.12.1)
+    image_processing (1.12.2)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
     io-console (0.5.9)
@@ -201,6 +201,7 @@ GEM
     mime-types (2.99.3)
     mini_magick (4.11.0)
     mini_mime (1.1.0)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     minitest-rails (5.2.0)
       minitest (~> 5.10)
@@ -215,6 +216,9 @@ GEM
     multipart-post (2.1.1)
     mysql2 (0.5.3)
     nio4r (2.5.7)
+    nokogiri (1.11.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.7-x86_64-linux)
       racc (~> 1.4)
     oauth2 (1.4.7)
@@ -312,7 +316,7 @@ GEM
     ruby-graphviz (1.2.5)
       rexml
     ruby-progressbar (1.11.0)
-    ruby-vips (2.1.2)
+    ruby-vips (2.1.4)
       ffi (~> 1.12)
     ruby_dep (1.5.0)
     rubyzip (2.3.0)
@@ -399,6 +403,7 @@ GEM
       rubyzip (>= 1.0.0)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -412,7 +417,7 @@ DEPENDENCIES
   diffy
   e2mmap
   font_awesome5_rails
-  image_processing
+  image_processing (>= 1.12.2)
   ipaddress!
   irb
   jbuilder (~> 2.5)
@@ -460,4 +465,4 @@ DEPENDENCIES
   zip-zip
 
 BUNDLED WITH
-   2.2.16
+   2.1.4
