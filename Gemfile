@@ -54,7 +54,7 @@ gem 'toastr_rails'
 gem 'bootstrap', git:"https://github.com/twbs/bootstrap-rubygem"
 
 # diff
-gem 'diffy'
+gem 'diffy', '>= 3.4.1'
 
 # screenshots
 gem 'image_processing'
