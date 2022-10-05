@@ -1,24 +1,24 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4'
+gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2'
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.1', '>= 5.1.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -54,15 +54,15 @@ gem 'toastr_rails'
 gem 'bootstrap', git:"https://github.com/twbs/bootstrap-rubygem"
 
 # diff
-gem 'diffy'
+gem 'diffy', '>= 3.4.1'
 
 # screenshots
-gem 'image_processing'
+gem 'image_processing', '>= 1.12.2'
 gem 'mini_magick'
 gem 'selenium-webdriver'
 
 # jobs
-gem 'sidekiq'
+gem 'sidekiq', '>= 6.4.0'
 
 # gems needed for sidekiq, not bundled in Ruby 2.7 anymore
 gem 'e2mmap'
@@ -90,7 +90,7 @@ group :development, :test do
   gem 'irb'
   # Adds support for Capybara system testing and selenium driver
   gem 'brakeman'
-  gem 'capybara', '~> 2.13'
+  gem 'capybara', '~> 2.18', '>= 2.18.0'
   gem 'minitest-rails'
   gem 'minitest-reporters'
   gem 'pry'
