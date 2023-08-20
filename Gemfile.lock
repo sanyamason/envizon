@@ -201,6 +201,7 @@ GEM
     mime-types (2.99.3)
     mini_magick (4.11.0)
     mini_mime (1.1.0)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     minitest-rails (5.2.0)
       minitest (~> 5.10)
@@ -214,7 +215,10 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     mysql2 (0.5.3)
-    nio4r (2.5.7)
+    nio4r (2.5.9)
+    nokogiri (1.11.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.7-x86_64-linux)
       racc (~> 1.4)
     oauth2 (1.4.7)
@@ -235,7 +239,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     psych (4.0.1)
-    puma (4.3.8)
+    puma (5.6.7)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -399,6 +403,7 @@ GEM
       rubyzip (>= 1.0.0)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -429,7 +434,7 @@ DEPENDENCIES
   pry
   pry-rails
   psych (~> 4.0, >= 4.0.1)
-  puma (~> 4.3)
+  puma (~> 5.6, >= 5.6.7)
   railroady
   rails (~> 5.2.4)
   rails-erd
@@ -460,4 +465,4 @@ DEPENDENCIES
   zip-zip
 
 BUNDLED WITH
-   2.2.16
+   2.1.4
