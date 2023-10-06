@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4'
+gem 'rails', '~> 5.2.6', '>= 5.2.6.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2'
 # Use Puma as the app server
@@ -91,7 +91,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'brakeman'
   gem 'capybara', '~> 2.13'
-  gem 'minitest-rails'
+  gem 'minitest-rails', '>= 6.0.0'
   gem 'minitest-reporters'
   gem 'pry'
   gem 'pry-rails'
@@ -110,7 +110,7 @@ group :development do
   gem 'yard', '>= 0.9.12'
   gem 'yard-restful', git: 'https://github.com/evs-ch/yard-restful.git'
 
-  gem 'web-console'
+  gem 'web-console', '>= 4.0.0'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   # gem 'web-console'
   gem 'listen', '>= 3.0.5', '< 3.2'
